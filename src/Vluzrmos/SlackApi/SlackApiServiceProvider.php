@@ -22,6 +22,7 @@ class SlackApiServiceProvider extends ServiceProvider
         'Channel',
         'Group',
         'Chat',
+        'Conversation',
         'InstantMessage',
         'Search',
         'File',
