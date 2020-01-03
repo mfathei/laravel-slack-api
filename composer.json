@@ -1,12 +1,16 @@
 {
-    "name": "vluzrmos/slack-api",
+    "name": "vivifyideasideas/slack-api",
     "description": "Wrapper for Slack.com WEB API.",
     "license": "DBAD",
     "keywords":["Laravel", "Lumen", "Slack"],
     "authors": [
         {
             "name": "Vagner do Carmo",
-            "email": "vluzrmos@gmail.com"
+            "email": "vivifyideas@gmail.com"
+        },
+        {
+            "name": "Milos Miljanic",
+            "email": "milosmilos96@gmail.com"
         }
     ],
     "require": {
@@ -17,10 +21,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Vluzrmos\\": "src/Vluzrmos/"
+            "VivifyIdeas\\": "src/VivifyIdeas/"
         },
         "files" : [
-            "src/Vluzrmos/SlackApi/helpers.php"
+            "src/VivifyIdeas/SlackApi/helpers.php"
         ]
     },
     "minimum-stability": "dev"
