@@ -34,6 +34,7 @@ and add the Facades to your aliases, if you need it
     'aliases' => [
         'SlackApi'              => VivifyIdeas\SlackApi\Facades\SlackApi::class,
         'SlackChannel'          => VivifyIdeas\SlackApi\Facades\SlackChannel::class,
+        'SlackConversation'          => VivifyIdeas\SlackApi\Facades\SlackConversation::class,
         'SlackChat'             => VivifyIdeas\SlackApi\Facades\SlackChat::class,
         'SlackGroup'            => VivifyIdeas\SlackApi\Facades\SlackGroup::class,
         'SlackFile'             => VivifyIdeas\SlackApi\Facades\SlackFile::class,
@@ -246,6 +247,9 @@ Allows you to operate channels:
 
 ### Chat API
 `VivifyIdeas\SlackApi\Contracts\SlackChat`
+
+### Conversations API
+`VivifyIdeas\SlackApi\Contracts\SlackConversation`
 
 Allows you to send, update and delete messages with methods:
 `delete`, `message`, `update`.

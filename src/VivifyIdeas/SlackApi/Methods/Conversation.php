@@ -2,9 +2,9 @@
 
 namespace VivifyIdeas\SlackApi\Methods;
 
-use VivifyIdeas\SlackApi\Contracts\SlackTeam;
+use VivifyIdeas\SlackApi\Contracts\SlackConversation;
 
-class Conversation extends SlackMethod implements SlackTeam
+class Conversation extends SlackMethod implements SlackConversation
 {
     protected $methodsGroup = 'conversations.';
 
