@@ -13,7 +13,7 @@ class Conversation extends SlackMethod implements SlackConversation
      *
      * @return array
      */
-    public function list($channelId) {
-        return $this->method('list', ['channel' => $channelId]);
+    public function list($options = []) {
+        return $this->method('list', $options);
     }
 }
