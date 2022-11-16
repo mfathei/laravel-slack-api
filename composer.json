@@ -1,5 +1,5 @@
 {
-    "name": "vivifyideas/slack-api",
+    "name": "mfathei/slack-api",
     "description": "Wrapper for Slack.com WEB API.",
     "license": "MIT",
     "keywords":["Laravel", "Lumen", "Slack"],
